@@ -5,5 +5,5 @@ export interface WordType {
 }
 
 export enum Type {
-  NOUN, VERB
+  NOUN = 0, VERB = 1
 }
