@@ -6,7 +6,7 @@ import { WordType } from 'src/app/data/models';
   templateUrl: './answers.component.html',
   styleUrls: ['./answers.component.css']
 })
-export class AnswersComponent implements OnInit {
+export class AnswersComponent {
 
   @Input() title: string;
  words: WordType[] = [];
